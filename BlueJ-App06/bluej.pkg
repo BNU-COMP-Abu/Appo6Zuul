@@ -1,55 +1,4 @@
 #BlueJ package file
-<<<<<<< Updated upstream
-dependency1.from=Program
-dependency1.to=Game
-dependency1.type=UsesDependency
-dependency10.from=Game
-dependency10.to=CommandWord
-dependency10.type=UsesDependency
-dependency11.from=Map
-dependency11.to=Room
-dependency11.type=UsesDependency
-dependency2.from=Command
-dependency2.to=CommandWord
-dependency2.type=UsesDependency
-dependency3.from=CommandWords
-dependency3.to=CommandWord
-dependency3.type=UsesDependency
-dependency4.from=Parser
-dependency4.to=CommandWords
-dependency4.type=UsesDependency
-dependency5.from=Parser
-dependency5.to=Command
-dependency5.type=UsesDependency
-dependency6.from=Game
-dependency6.to=Parser
-dependency6.type=UsesDependency
-dependency7.from=Game
-dependency7.to=Room
-dependency7.type=UsesDependency
-dependency8.from=Game
-dependency8.to=Map
-dependency8.type=UsesDependency
-dependency9.from=Game
-dependency9.to=Command
-dependency9.type=UsesDependency
-editor.fx.0.height=737
-editor.fx.0.width=814
-editor.fx.0.x=450
-editor.fx.0.y=37
-objectbench.height=176
-objectbench.width=695
-package.divider.horizontal=0.6
-package.divider.vertical=0.7038834951456311
-package.editor.height=428
-package.editor.width=607
-package.editor.x=0
-package.editor.y=44
-package.frame.height=716
-package.frame.width=734
-package.numDependencies=11
-package.numTargets=9
-=======
 editor.fx.0.height=728
 editor.fx.0.width=800
 editor.fx.0.x=320
@@ -66,7 +15,6 @@ package.frame.height=716
 package.frame.width=734
 package.numDependencies=0
 package.numTargets=7
->>>>>>> Stashed changes
 package.showExtends=true
 package.showUses=true
 project.charset=UTF-8
@@ -108,58 +56,26 @@ target4.width=110
 target4.x=350
 target4.y=140
 target5.height=50
-target5.name=Items
+target5.name=CommandWords
 target5.showInterface=false
-<<<<<<< Updated upstream
-target5.type=EnumTarget
-target5.width=80
-target5.x=450
-target5.y=280
-=======
 target5.type=ClassTarget
 target5.typeParameters=
 target5.width=120
 target5.x=420
 target5.y=50
->>>>>>> Stashed changes
 target6.height=50
-target6.name=CommandWords
+target6.name=Room
 target6.showInterface=false
 target6.type=ClassTarget
-<<<<<<< Updated upstream
-target6.width=130
-target6.x=420
-target6.y=50
-=======
 target6.typeParameters=
 target6.width=80
 target6.x=200
 target6.y=260
->>>>>>> Stashed changes
 target7.height=50
-target7.name=Map
+target7.name=Parser
 target7.showInterface=false
 target7.type=ClassTarget
 target7.typeParameters=
 target7.width=80
-<<<<<<< Updated upstream
-target7.x=310
-target7.y=230
-target8.height=50
-target8.name=Room
-target8.showInterface=false
-target8.type=ClassTarget
-target8.width=80
-target8.x=210
-target8.y=340
-target9.height=50
-target9.name=Parser
-target9.showInterface=false
-target9.type=ClassTarget
-target9.width=80
-target9.x=180
-target9.y=110
-=======
 target7.x=200
 target7.y=110
->>>>>>> Stashed changes
