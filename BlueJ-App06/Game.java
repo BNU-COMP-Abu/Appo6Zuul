@@ -143,11 +143,23 @@ public class Game
             System.out.println("There is no door!");
         }
         else {
+            moveBorris();
+            player.decreaseHealth();
+            player.showStatus();
             currentRoom = nextRoom;
             System.out.println(currentRoom.getLongDescription());
         }
     }
 
+    private void moveBorris()
+    {
+        if (player. getMoves() == 1 )
+        {
+            map.parliment.setItem(Items.BORRIS);
+        }
+        
+    }
+    
     /** 
      * "Quit" was entered. Check the rest of the command to see
      * whether we really quit the game.
