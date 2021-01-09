@@ -2,10 +2,10 @@
 /**
  * Enumeration class Items - write a description of the enum class here
  *
- * @author (your name here)
- * @version (version number or date here)
+ * @author Abu & Zammar 
+ * @version 0.1
  */
 public enum Items
 {
-    LAMP, BOTTLE, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY
+    PHONE, CAR , GUN , BOTTLE , KEYS , LAPTOP 
 }
