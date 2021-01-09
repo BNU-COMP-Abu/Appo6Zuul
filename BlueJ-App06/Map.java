@@ -7,7 +7,7 @@
  */
 public class Map
 {
-    Room gym, outside, theater, pub, lab, office, fireExit;
+    public Room gym, outside, theater, pub, lab, office, fireExit, parliment ;
     private Room startRoom;
     
     public Map()
@@ -28,7 +28,8 @@ public class Map
         lab = new Room("in a computing lab");
         office = new Room("in the computing admin office");
         gym = new Room("in the gym there is a boxing ring");
-        fireExit = new Room ("your at the back door of the gym and there is a drunkie");
+        fireExit = new Room("your at the back door of the gym and there is a drunkie");
+        parliment = new Room("");
         
         // initialise room exits
         outside.setExit("east", theater);
