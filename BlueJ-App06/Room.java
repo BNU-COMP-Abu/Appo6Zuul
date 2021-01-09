@@ -20,7 +20,6 @@ public class Room
 {
     private String description;
     private HashMap<String, Room> exits;        // stores exits of this room.
-
     /**
      * Create a room described "description". Initially, it has
      * no exits. "description" is something like "a kitchen" or
@@ -32,7 +31,7 @@ public class Room
         this.description = description;
         exits = new HashMap<>();
     }
-
+    
     /**
      * Define an exit from this room.
      * @param direction The direction of the exit.
