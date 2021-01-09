@@ -25,6 +25,8 @@ public class Game
     
     private Map map;
     
+    private Player player;
+    
     /**
      * Create the game and initialise its internal map.
      */
@@ -33,6 +35,7 @@ public class Game
         parser = new Parser();
         map = new Map();
         currentRoom = map.getStartRoom();
+        player = new Player("Bob");
     }
 
 
