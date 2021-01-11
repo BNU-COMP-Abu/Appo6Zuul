@@ -38,7 +38,7 @@ public class Map
         outside.setExit("west", pub);
         outside.setExit("north", gym);
         outside.setExit("northEast", parliment);
-        outside.setExit("eastSouth", accomodation);
+        outside.setExit("Southeast", accomodation);
         
         gym.setExit("south", outside);
         gym.setExit("fireExit", fireExit);
