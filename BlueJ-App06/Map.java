@@ -22,12 +22,12 @@ public class Map
     {
         
         // create the rooms
-        outside = new Room("outside the main entrance of the university");
-        theater = new Room("in a lecture theater");
+        outside = new Room("outside the main entrance of the university, your here but your late..");
+        theater = new Room("in a lecture theater, you have missed the movies go to bed now!");
         pub = new Room("in the campus pub, your now wasted");
-        lab = new Room("in a computing lab");
-        office = new Room("in the computing admin office");
-        gym = new Room("in the gym there is a boxing ring");
+        lab = new Room("in a computing lab, stop playing games and learn something");
+        office = new Room("in the computing admin office, recntly you been asking too many questions..");
+        gym = new Room("in the gym there is a boxing ring, learn to punch and come back please..");
         fireExit = new Room("your at the back door of the gym and there is a drunkie");
         parliment = new Room("You are now in parliment, Borris is not here try harder!");
         accommodation = new Room("You are now in your accomodation, STOP MISSING LECTURES! ");
