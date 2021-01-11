@@ -57,7 +57,7 @@ public class Game
             finished = processCommand(command);
         }
         
-        System.out.println("Leaving soo soon? Thank you for playing. See you next time :)");
+        System.out.println("lALU Leaving soo soon? Chal Lund kaso. See you next time :)");
     }
 
     /**
@@ -66,7 +66,7 @@ public class Game
     private void printWelcome()
     {
         System.out.println();
-        System.out.println("Welcome to the World of Zuul - Boris Edition!");
+        System.out.println(" OH MESSIR SLALLLIKUM! Welcome to the World of Zuul - Boris Edition!");
         System.out.println("World of Zuul is a new, incredibly boring adventure game full of new things to discover.");
         System.out.println("Ground Rules! No talking, No TikTok dances and definitly no Boris Supporters!");
         System.out.println("Type '" + CommandWord.HELP + "' if you need help.");
