@@ -7,7 +7,7 @@
  */
 public class Map
 {
-    public Room gym, outside, theater, pub, lab, office, fireExit, parliment, accommodation ;
+    public Room gym, outside, theater, pub, lab, office, fireExit, parliment, accommodation, mcdonalds, kitchen, reception ;
     private Room startRoom;
     
     public Map()
@@ -31,6 +31,9 @@ public class Map
         fireExit = new Room("your at the back door of the gym and there is a drunkie");
         parliment = new Room("You are now in parliment, Borris is not here try harder!");
         accommodation = new Room("You are now in your accomodation, STOP MISSING LECTURES! ");
+        mcdonalds = new Room("You are now in mcdonalds, GO AND COOK SOME FOOD");
+        kitchen = new Room("You are now in the kitchen,Well done you cooked chicken");
+        reception = new Room("You are at reception, they cannot answer any questions at this time...");
         
         
         // initialise room exits
@@ -39,7 +42,21 @@ public class Map
         outside.setExit("west", pub);
         outside.setExit("north", gym);
         outside.setExit("northEast", parliment);
-        outside.setExit("Southeast", accommodation);
+        outside.setExit("southEast", accommodation);
+        outside.setExit("southWest", mcdonalds);
+        outside.setExit("northWest", kitchen);
+        outside.setExit("insideUni", reception);
+        
+        reception.setExit("north", gym);
+        reception.setExit("east", theater);
+        reception.setExit("south", lab);
+        reception.setExit("west", pub);
+        
+        kitchen.setExit("left", pub);
+        kitchen.setExit("right", gym);
+        
+        mcdonalds.setExit("left", pub);
+        mcdonalds.setExit("right", lab);
         
         gym.setExit("south", outside);
         gym.setExit("fireExit", fireExit);
