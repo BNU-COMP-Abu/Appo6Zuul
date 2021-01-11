@@ -7,5 +7,5 @@
  */
 public enum Items
 {
-    PHONE, CAR , GUN , BOTTLE , KEYS , LAPTOP, BORRIS
+    PHONE, CAR , GUN , KEYS , BORRIS
 }
