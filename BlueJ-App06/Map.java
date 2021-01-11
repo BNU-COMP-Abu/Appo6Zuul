@@ -29,14 +29,14 @@ public class Map
         office = new Room("in the computing admin office");
         gym = new Room("in the gym there is a boxing ring");
         fireExit = new Room("your at the back door of the gym and there is a drunkie");
-        parliment = new Room("");
+        parliment = new Room("You are not in parliment, Borris is not here try harder!");
         
         // initialise room exits
         outside.setExit("east", theater);
         outside.setExit("south", lab);
         outside.setExit("west", pub);
         outside.setExit("north", gym);
-        
+        outside.setExit("northEast", parliment);
         
         gym.setExit("south", outside);
         gym.setExit("fireExit", fireExit);
@@ -49,6 +49,11 @@ public class Map
 
         lab.setExit("north", outside);
         lab.setExit("east", office);
+        
+        parliment.setExit("left", gym);
+        parliment.setExit("right", pub);
+        
+        
 
         office.setExit("west", lab);
 
