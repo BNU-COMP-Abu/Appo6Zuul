@@ -23,7 +23,7 @@ public class Map
         
         // create the rooms
         outside = new Room("outside the main entrance of the university, your here but your late..");
-        theater = new Room("in a lecture theater, you have missed the movies go to bed now!");
+        theater = new Room("you are in the theatre, you have missed the movies go to bed now!");
         pub = new Room("in the campus pub, your now wasted");
         lab = new Room("in a computing lab, stop playing games and learn something");
         office = new Room("in the computing admin office, recntly you been asking too many questions..");
