@@ -125,6 +125,42 @@ public class Game
             System.out.println("Which Item?");
             return;
         }
+        
+         String word = command.getSecondWord();
+        Items item = convertFromString(word);
+        
+        //TO DO OTHER ITEMS 
+        
+        player.pickUpItem(item);
+        currentRoom.removeItem();
+        
+    }
+    
+    private Items convertFromString(String word)
+    {
+        Items item = Items.NONE;
+         if(word.equals("car"))
+        {
+            item = Items.CAR;
+        }
+        
+        else  if(word.equals("phone"))
+        {
+            item = Items.PHONE;
+        }
+        else  if(word.equals("gun"))
+        {
+            item = Items.GUN;
+        }
+        else  if(word.equals("boris"))
+        {
+            item = Items.BORIS;
+        }
+        else if(word.equals("keys"))
+        {
+            item = Items.KEYS;
+        }
+        return item;
     }
     
     private void dropItem(Command command)
@@ -135,6 +171,10 @@ public class Game
             System.out.println("Which Item?");
             return;
         }
+        
+        String word = command.getSecondWord();
+        Items item = convertFromString(word);
+        player.dropItem(item);
     }
     
     /**
