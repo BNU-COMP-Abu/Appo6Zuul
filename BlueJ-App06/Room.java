@@ -38,6 +38,11 @@ public class Room
         this.item = item; 
     }
     
+    public void removeItem()
+    {
+        item = Items.NONE;
+    }
+    
     public Items getItems()
     {
         return item;
