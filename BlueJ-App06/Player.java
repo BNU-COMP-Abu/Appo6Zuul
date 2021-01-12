@@ -2,8 +2,8 @@ import java.util.ArrayList;
 /**
  * Write a description of class Player here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Zammar and Abu)
+ * @version 1
  */
 public class Player
 {
@@ -19,7 +19,7 @@ public class Player
         score = 0;
         health = 100;
         items = new ArrayList <Items> ();
-      
+        
     }
     
     public void showStatus()
@@ -32,6 +32,11 @@ public class Player
         
     }
     
+    public void pickUpItem(Items item)
+    {
+        items.add(item);
+    }
+    
     public int getMoves()
     {
         return moves;
@@ -39,7 +44,7 @@ public class Player
     
     public void decreaseHealth()
     {
-        health --;
+        health = health -5;
         moves ++;
     }
     
