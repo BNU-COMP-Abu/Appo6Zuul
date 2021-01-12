@@ -1,0 +1,154 @@
+Program.main();
+
+Welcome to the World of Zuul - Boris Edition!
+World of Zuul is a new, incredibly boring adventure game full of new things to discover.
+Ground Rules! No talking, No TikTok dances and definitly no Boris Supporters!
+Type 'help' if you need help.
+
+You are outside the main entrance of the university, your here but your late...
+Exits: northWest east southWest south north west insideUni northEast southEast
+> go east
+Player Status for Bob
+health =  99
+score =  0
+move number = 1
+
+You are in a lecture theater, you have missed the movies go to bed now!.
+Exits: west
+> go west
+Player Status for Bob
+health =  98
+score =  0
+move number = 2
+
+You are outside the main entrance of the university, your here but your late...
+Exits: northWest east southWest south north west insideUni northEast southEast
+> go south
+Player Status for Bob
+health =  97
+score =  0
+move number = 3
+
+You are in a computing lab, stop playing games and learn something.
+Exits: east north
+> go north
+Player Status for Bob
+health =  96
+score =  0
+move number = 4
+
+You are outside the main entrance of the university, your here but your late...
+Exits: northWest east southWest south north west insideUni northEast southEast
+> go northEast
+Player Status for Bob
+health =  95
+score =  0
+move number = 5
+
+You are You are now in parliment, Borris is not here try harder!.
+Exits: left right
+> go left
+Player Status for Bob
+health =  94
+score =  0
+move number = 6
+
+You are in the gym there is a boxing ring, learn to punch and come back please...
+Exits: south fireExit
+> go fireExit 
+Player Status for Bob
+health =  93
+score =  0
+move number = 7
+
+You are your at the back door of the gym and there is a drunkie.
+Exits: inside
+> go inside 
+Player Status for Bob
+health =  92
+score =  0
+move number = 8
+
+You are in the gym there is a boxing ring, learn to punch and come back please...
+Exits: south fireExit
+> go south
+Player Status for Bob
+health =  91
+score =  0
+move number = 9
+
+You are outside the main entrance of the university, your here but your late...
+Exits: northWest east southWest south north west insideUni northEast southEast
+> go south east
+Player Status for Bob
+health =  90
+score =  0
+move number = 10
+
+You are in a computing lab, stop playing games and learn something.
+Exits: east north
+> go north
+Player Status for Bob
+health =  89
+score =  0
+move number = 11
+
+You are outside the main entrance of the university, your here but your late...
+Exits: northWest east southWest south north west insideUni northEast southEast
+> go northWest
+Player Status for Bob
+health =  88
+score =  0
+move number = 12
+
+You are You are now in the kitchen,Well done you cooked chicken.
+Exits: left right
+> go right
+Player Status for Bob
+health =  87
+score =  0
+move number = 13
+
+You are in the gym there is a boxing ring, learn to punch and come back please...
+Exits: south fireExit
+> go south
+Player Status for Bob
+health =  86
+score =  0
+move number = 14
+
+You are outside the main entrance of the university, your here but your late...
+Exits: northWest east southWest south north west insideUni northEast southEast
+> go southWest
+Player Status for Bob
+health =  85
+score =  0
+move number = 15
+
+You are You are now in mcdonalds, GO AND COOK SOME FOOD.
+Exits: left right
+> go left 
+Player Status for Bob
+health =  84
+score =  0
+move number = 16
+
+You are in the campus pub, your now wasted.
+Exits: east
+> go east
+Player Status for Bob
+health =  83
+score =  0
+move number = 17
+
+You are outside the main entrance of the university, your here but your late...
+Exits: northWest east southWest south north west insideUni northEast southEast
+> go insideUni
+Player Status for Bob
+health =  82
+score =  0
+move number = 18
+
+You are You are at reception, they cannot answer any questions at this time....
+Exits: east south north west
+> 
