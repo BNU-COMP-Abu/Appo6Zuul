@@ -42,6 +42,11 @@ public class Player
         return moves;
     }
     
+    public void dropItem(Items item)
+    {
+        items.remove(item);
+    }
+    
     public void decreaseHealth()
     {
         health = health -5;
