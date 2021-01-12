@@ -102,12 +102,41 @@ public class Game
             case QUIT:
                 wantToQuit = quit(command);
                 break;
+                
+            case DROP:
+                dropItem(command);
+                break;
+               
+            case PICKUP:
+                pickupItem(command);
+                break;
+                
         }
         return wantToQuit;
     }
 
     // implementations of user commands:
-
+    private void pickupItem(Command command)
+    
+    {
+        if(!command.hasSecondWord()) 
+        {
+            // if there is no second word, we don't know where to go...
+            System.out.println("Which Item?");
+            return;
+        }
+    }
+    
+    private void dropItem(Command command)
+    {
+        if(!command.hasSecondWord()) 
+        {
+            // if there is no second word, we don't know where to go...
+            System.out.println("Which Item?");
+            return;
+        }
+    }
+    
     /**
      * Print out some help information.
      * Here we print some stupid, cryptic message and a list of the 
