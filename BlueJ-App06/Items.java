@@ -7,5 +7,19 @@
  */
 public enum Items
 {
-    PHONE, CAR , GUN , KEYS , BORIS
+   NONE, PHONE, CAR , GUN , KEYS , 
+        BORIS;
+    
+    private String item;
+    
+    
+    //public  Items(String item)
+    //{
+    //    this.item = item;
+    //}
+    
+    public String toString()
+    {
+        return item;
+    }
 }
