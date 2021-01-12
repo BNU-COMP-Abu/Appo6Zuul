@@ -156,7 +156,7 @@ public class Game
     {
         if (player. getMoves() == 1 )
         {
-            map.parliment.setItem(Items.BORRIS);
+            map.parliment.setItem(Items.BORIS);
         }
         
     }
