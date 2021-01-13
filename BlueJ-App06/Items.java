@@ -7,16 +7,15 @@
  */
 public enum Items
 {
-   NONE, PHONE, CAR , GUN , KEYS , 
-        BORIS;
+   NONE("none"), PHONE("phone"), CAR("car") , GUN("gun") , KEYS("keys") , 
+        BORIS("boris");
     
     private String item;
     
-    
-    //public  Items(String item)
-    //{
-    //    this.item = item;
-    //}
+      Items(String item)
+    {
+        this.item = item;
+    }
     
     public String toString()
     {
