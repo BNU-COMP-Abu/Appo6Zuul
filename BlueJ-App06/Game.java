@@ -57,7 +57,8 @@ public class Game
             finished = processCommand(command);
         }
         
-        System.out.println("Leaving soo soon? Thanks for Playing! See you next time :)");
+        System.out.println("Leaving soo soon? Couldnt take up the challenge? ");
+        System.out.println("Oh well mate Thanks for Playing! See you next time:)");
     }
 
     /**
@@ -69,6 +70,10 @@ public class Game
         System.out.println("Welcome to the World of Zuul - Boris Edition!");
         System.out.println("World of Zuul is a new, incredibly boring adventure game full of new things to discover.");
         System.out.println("Ground Rules! No talking, No TikTok dances and definitly no Boris Supporters!");
+        System.out.println("First to hit 100 points before their health hits 0 wins!");
+        System.out.println("Boris is worth 100 points so find him and you win instantly");
+        System.out.println("But there are also other items you will run into that are worth different points");
+        
         System.out.println("Type '" + CommandWord.HELP + "' if you need help.");
         System.out.println();
         System.out.println(currentRoom.getLongDescription());
