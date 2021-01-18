@@ -49,8 +49,19 @@ public class Player
     
     public void decreaseHealth()
     {
-        health = health -5;
+        health = health -20;
         moves ++;
+        score ++;
+        }
+    
+    public int getHealth()
+    {
+        return health;
+    }
+      
+    public void increaseScore(int amount)
+    {
+        score = score + amount;
     }
     
 }
