@@ -27,6 +27,10 @@ public class Game
     
     private Player player;
     
+    private boolean gameLost = false;
+    
+    private boolean gameWon = false; 
+    
     /**
      * Create the game and initialise its internal map.
      */
@@ -55,7 +59,9 @@ public class Game
         {
             Command command = parser.getCommand();
             finished = processCommand(command);
+            finished = (gameWon | gameLost);
         }
+        
         
         System.out.println("Leaving soo soon? Couldnt take up the challenge? ");
         System.out.println("Oh well mate Thanks for Playing! See you next time:)");
@@ -139,6 +145,26 @@ public class Game
         player.pickUpItem(item);
         currentRoom.removeItem();
         
+        if(item == Items.KEYS)
+            player.increaseScore(20);
+        if(item == Items.GUN)
+            player.increaseScore(15);   
+        if(item == Items.CAR)
+            player.increaseScore(25);
+        if(item == Items.PHONE)
+            player.increaseScore(5);
+        
+        
+        if(item == Items.BORIS)
+        {
+            System.out.println("You have won the game");
+            player.increaseScore(100);
+            gameWon = true;
+        }
+            
+        
+        player.showStatus();
+        
     }
     
     private Items convertFromString(String word)
@@ -217,22 +243,45 @@ public class Game
         if (nextRoom == null) {
             System.out.println("There is no door!");
         }
-        else {
-            moveBorris();
+        else 
+        {
+            //moveBorris();
             player.decreaseHealth();
             player.showStatus();
-            currentRoom = nextRoom;
-            System.out.println(currentRoom.getLongDescription());
-        }
+            
+            if(!checkGameEnd())
+            {
+               currentRoom = nextRoom;
+               System.out.println(currentRoom.getLongDescription());
+            }
+            
+            }
+        
+        
     }
 
+    private boolean checkGameEnd()
+    {
+        if(player.getHealth() <=0 )
+        {
+            System.out.println("You have lost the game as you reached 0 health");
+            gameLost = true;
+            return true;
+            
+        }
+        return false;
+    }
+    
     private void moveBorris()
     {
         if (player. getMoves() == 1 )
         {
             map.parliament.setItem(Items.BORIS);
         }
-        
+        else if( player. getMoves() == 2 )
+        {
+            map.gym.setItem(Items.BORIS);
+        }
     }
     
     /** 
