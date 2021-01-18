@@ -1,0 +1,105 @@
+Program.main();
+
+Welcome to the World of Zuul - Boris Edition!
+World of Zuul is a new, incredibly boring adventure game full of new things to discover.
+Ground Rules! No talking, No TikTok dances and definitly no Boris Supporters!
+First to hit 100 points before their health hits 0 wins!
+Boris is worth 100 points so find him and you win instantly
+But there are also other items you will run into that are worth different points
+Type 'help' if you need help.
+
+You are outside the main entrance of the university, your here but your late...
+Exits: northWest east southWest south north west insideUni northEast southEast Item null
+> go west
+Player Status for Bob
+health =  80
+score =  1
+move number = 1
+
+You are in the campus pub, your now wasted.
+Exits: east Item null
+> go east
+Player Status for Bob
+health =  60
+score =  2
+move number = 2
+
+You are outside the main entrance of the university, your here but your late...
+Exits: northWest east southWest south north west insideUni northEast southEast Item null
+> go south
+Player Status for Bob
+health =  40
+score =  3
+move number = 3
+
+You are in a computing lab, stop playing games and learn something.
+Exits: east north Item null
+> go east
+Player Status for Bob
+health =  20
+score =  4
+move number = 4
+
+You are in the computing admin office, recntly you been asking too many questions...
+Exits: west Item null
+> go west
+Player Status for Bob
+health =  0
+score =  5
+move number = 5
+
+You have lost the game as you reached 0 health
+>     VM terminated.
+Program.main();
+
+Welcome to the World of Zuul - Boris Edition!
+World of Zuul is a new, incredibly boring adventure game full of new things to discover.
+Ground Rules! No talking, No TikTok dances and definitly no Boris Supporters!
+First to hit 100 points before their health hits 0 wins!
+Boris is worth 100 points so find him and you win instantly
+But there are also other items you will run into that are worth different points
+Type 'help' if you need help.
+
+You are outside the main entrance of the university, your here but your late...
+Exits: northWest east southWest south north west insideUni northEast southEast Item null
+> go east 
+Player Status for Bob
+health =  80
+score =  1
+move number = 1
+
+You are you are in the theatre, you have missed the movies go to bed now!.
+Exits: west Item null
+> go west
+Player Status for Bob
+health =  60
+score =  2
+move number = 2
+
+You are outside the main entrance of the university, your here but your late...
+Exits: northWest east southWest south north west insideUni northEast southEast Item null
+> go north
+Player Status for Bob
+health =  40
+score =  3
+move number = 3
+
+You are in the gym there is a boxing ring, learn to punch and come back please...
+Exits: south fireExit Item null
+> go south
+Player Status for Bob
+health =  20
+score =  4
+move number = 4
+
+You are outside the main entrance of the university, your here but your late...
+Exits: northWest east southWest south north west insideUni northEast southEast Item null
+> go north
+Player Status for Bob
+health =  0
+score =  5
+move number = 5
+
+You have lost the game as you reached 0 health
+Leaving soo soon? Couldnt take up the challenge? 
+Oh well mate Thanks for Playing! See you next time:)
