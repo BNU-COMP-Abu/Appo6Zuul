@@ -2,7 +2,7 @@
 /**
  * Write a description of class Map here.
  *
- * @author Zammar
+ * @author Zammar and Abu 
  * @version 0.1
  */
 public class Map
