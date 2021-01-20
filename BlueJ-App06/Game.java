@@ -11,6 +11,10 @@
  *  rooms, creates the parser and starts the game.  It also evaluates and
  *  executes the commands that the parser returns.
  * 
+ *  the player need to go into diffrent rooms in order to find Boris and 
+ *  win the game.
+ * 
+ * 
  * @author  Michael Kölling and David J. Barnes
  * @version 2016.02.29
  * 
@@ -32,7 +36,8 @@ public class Game
     private boolean gameWon = false; 
     
     /**
-     * Create the game and initialise its internal map.
+     * Create the game and initialise its internal map. Also create 
+     * a new player and get start room from map.
      */
     public Game() 
     {
@@ -45,6 +50,7 @@ public class Game
 
     /**
      *  Main play routine.  Loops until end of play.
+     *  each time the user enter a command which is executed 
      */
     public void play() 
     {            
@@ -68,7 +74,8 @@ public class Game
     }
 
     /**
-     * Print out the opening message for the player.
+     * Print out the opening message for the player as well as explaining the 
+     * rules.
      */
     private void printWelcome()
     {
@@ -167,6 +174,10 @@ public class Game
         
     }
     
+    /**
+     * this method converts the items as a string to an Item
+     */
+    
     private Items convertFromString(String word)
     {
         Items item = Items.NONE;
@@ -194,6 +205,9 @@ public class Game
         return item;
     }
     
+    /**
+     * The player drops the item that is being carried.
+     */
     private void dropItem(Command command)
     {
         if(!command.hasSecondWord()) 
@@ -260,6 +274,9 @@ public class Game
         
     }
 
+    /**
+     * if the players health falls to 0 or below the game is over.
+     */
     private boolean checkGameEnd()
     {
         if(player.getHealth() <=0 )
@@ -271,6 +288,10 @@ public class Game
         }
         return false;
     }
+    
+    /**
+     * Boris is moved each time the player goes into a room.
+     */
     
     private void moveBorris()
     {
