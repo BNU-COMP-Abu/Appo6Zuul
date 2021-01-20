@@ -36,16 +36,7 @@ public class Map
         reception = new Room("You are at reception, they cannot answer any questions at this time...");
         
         
-        // initialise room exits
-        outside.setExit("east", theater);
-        outside.setExit("south", lab);
-        outside.setExit("west", pub);
-        outside.setExit("north", gym);
-        outside.setExit("northEast", parliament);
-        outside.setExit("southEast", accommodation);
-        outside.setExit("southWest", mcdonalds);
-        outside.setExit("northWest", kitchen);
-        outside.setExit("insideUni", reception);
+        setOutsideExits();
         
         reception.setExit("north", gym);
         reception.setExit("east", theater);
@@ -81,6 +72,19 @@ public class Map
         office.setExit("west", lab);
 
         startRoom = outside;  // start game outside
+    }
+    
+    public void setOutsideExits()
+    {
+        outside.setExit("east", theater);
+        outside.setExit("south", lab);
+        outside.setExit("west", pub);
+        outside.setExit("north", gym);
+        outside.setExit("northEast", parliament);
+        outside.setExit("southEast", accommodation);
+        outside.setExit("southWest", mcdonalds);
+        outside.setExit("northWest", kitchen);
+        outside.setExit("insideUni", reception);
     }
     
     public Room getStartRoom()
